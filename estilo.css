@@ -1,0 +1,25 @@
+.dropdown:hover > .dropdown-menu{
+    display: block;
+}
+
+#test{
+    background: red;
+}
+
+#test>.container>.row{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+#test>.container>.row>.col{
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1px;
+}
+
+#test>.container>.row>.col>.row{
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1px;
+}
